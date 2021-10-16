@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.counter {
+  border: 0.1rem solid black;
+  height: 35rem;
+  width: 45rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.counter__number {
+  height: 20rem;
+  width: 20rem;
+  border: 0.1rem solid black;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  transition: 0.2s ease-in;
 }
